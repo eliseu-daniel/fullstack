@@ -112,6 +112,7 @@ export default function Home() {
                         className="flex items-center gap-2 bg-zinc-800 px-4 py-2 rounded-md"
                     >
                         <div className="flex-1">{produto.nome}</div>
+                        <div className="flex-1">{produto.descricao}</div>
                         <div>{produto.preco}</div>
                         <div>
                             <button
